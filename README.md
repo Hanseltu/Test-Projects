@@ -2,11 +2,11 @@
 
 ### Test projects for different Languages.
 
-* C
+* [C](https://github.com/Hanseltu/Test-Projects/tree/master/c)
 
-* C Plus Plus
+* [C Plus Plus](https://github.com/Hanseltu/Test-Projects/tree/master/cplusplus)
 
-* Python
+* [Python](https://github.com/Hanseltu/Test-Projects/tree/master/python)
 
-* Java
+* [Java](https://github.com/Hanseltu/Test-Projects/tree/master/java)
 
