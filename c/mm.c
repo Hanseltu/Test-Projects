@@ -9,7 +9,7 @@ int* inputModule(int* ptrCount)
 {
     int* arr, d, i = 0;
     int length = SIZE;
-
+    int* temp;
     // Apply malloc()
     arr = (int*)malloc(SIZE * sizeof(int));
     memset(arr, 0, length * sizeof(int));
@@ -28,7 +28,10 @@ int* inputModule(int* ptrCount)
         }
         if (i >= length) {
             // Apply realloc()
-            realloc(arr, 2*length*sizeof(int));
+            temp = (int*)realloc(arr, 2*length*sizeof(int));
+            if (temp == NULL)
+                return arr;
+            arr = temp;
             memset(arr+length, 0, length * sizeof(int));
             length *= 2;
         }
@@ -57,7 +60,7 @@ void outputModule(int* arr, int* ptrCount)
 
 int main()
 {
-    int i = 0;
+    //int i = 0;
     int* ptrCount;
     int* arr;
 
