@@ -60,6 +60,7 @@ void outputModule(int* arr, int* ptrCount)
 
 int main()
 {
+    short n = 0xfff0;
     //int i = 0;
     int* ptrCount;
     int* arr;
