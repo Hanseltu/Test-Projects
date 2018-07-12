@@ -25,11 +25,14 @@ int b(int* arr,int target)
 int main(){
     //iint arr[] = {1,2,3,4};
     int *arr=(int*)malloc(sizeof(int)*100);
-    int i,target;
+    int i=0,target;
     for(i=0;i<10;i++)
         scanf("%d",&arr[i]);
     scanf("%d",&target);
     printf("%d \n",b(arr,target));
+    printf("--------\n");
+    printf("%d \n",i+++i++);
+
     return 0;
 
 }
