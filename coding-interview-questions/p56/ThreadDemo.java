@@ -1,4 +1,4 @@
-class Newthread implements Runnable {
+ class Newthread implements Runnable {
     Thread t;
     Newthread(){
         t = new Thread(this,"Demo Thread");
