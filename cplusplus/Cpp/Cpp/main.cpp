@@ -64,8 +64,9 @@ int main(int argc, const char * argv[]) {
             
     }
     
-    cout << "The result is \n";
+    cout << "The result is ";
     for (int i=0;i<ret.size();i++){
+        
         cout << ret[i]+1 << endl;
     }
     
